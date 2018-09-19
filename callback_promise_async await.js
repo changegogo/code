@@ -58,7 +58,7 @@ readDataByPromise()
         return readDataByPromise();
     });
 
-// 适用async await方式
+// 使用async await方式
 var index3 = 0;
 function readDataByPromise2() {
     return new Promise(function(resolve, reject) {
